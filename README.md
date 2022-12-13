@@ -175,10 +175,17 @@ We decided to work together throghout the implementation of project in GCP.
 ----------------------
 3) **Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there 
 more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?**<br><br>
-**Answer:** <br><br>
+**Answer:** <br>The frequency of exits kept increasing steadily not necessarily a linear rise. There are various VM instructions/operations that induce exits, such as EPT violation, RDRAND, I/O instruction, RDTSCP, and so on. Approximately 11727090 exits a full VM boot entail.<br>
 
 ----------------------
 4) **Of the exit types defined in the SDM, which are the most frequent? Least?**<br><br>
-**Answer:** <br><br>
+**Answer:** <br>The Most frequent exits are:
+
+<img width="391" alt="image" src="https://user-images.githubusercontent.com/52853300/207227279-713c534b-ec8e-4bac-be35-e8cdb7298cd8.png">
+
+The Least frequent exit types are:
+
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/52853300/207227402-01a6c5ac-cdd5-4c6a-86c0-3e532fb0af6f.png">
+<br>
 
 
