@@ -6,7 +6,7 @@
 
 ## Questions and Answers:
 ----------------------
-1) For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself). <br><br>
+1) **For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).**<br><br>
 **Answer:** <br><br>
 We decided to work together throghout the implementation of project in GCP.
 
@@ -17,7 +17,7 @@ We decided to work together throghout the implementation of project in GCP.
 
 
 ----------------------
-2) Describe in detail the steps you used to complete the assignment. Consider your reader to be someone skilled in software development but otherwise unfamiliar with the assignment. Good answers to this question will be recipes that someone can follow to reproduce your development steps. <br>
+2) **Describe in detail the steps you used to complete the assignment. Consider your reader to be someone skilled in software development but otherwise unfamiliar with the assignment. Good answers to this question will be recipes that someone can follow to reproduce your development steps.**<br>
 **Note:** I may decide to follow these instructions for random assignments, so you should make sure they are accurate. <br><br>
 **Answer:**<br><br>
 **IMPORTANT NOTE: We have not included all screenshots in this README file. Please, check out [CMPE283-assignment-3 Screenshots](Screenshots/) for more detailed understanding of flow and procedure)**<br><br>
@@ -172,5 +172,13 @@ We decided to work together throghout the implementation of project in GCP.
 
 ![31](https://user-images.githubusercontent.com/52853300/207210886-1de28693-4fe7-4313-b3cf-8adff87c22e5.PNG)
 
+----------------------
+3) **Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there 
+more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?**<br><br>
+**Answer:** <br><br>
+
+----------------------
+4) **Of the exit types defined in the SDM, which are the most frequent? Least?**<br><br>
+**Answer:** <br><br>
 
 
